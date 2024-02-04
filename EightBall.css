@@ -1,0 +1,30 @@
+/* EightBall.css */
+.EightBall-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Use the viewport height to ensure it centers vertically on the page */
+}
+
+.EightBall {
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 20px; 
+}
+
+button {
+  margin-bottom: 20px; 
+}
+
+.color-counts {
+  text-align: center; 
+}
